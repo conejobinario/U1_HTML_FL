@@ -1,0 +1,17 @@
+body { 
+    background-color: #FFE3E3; 
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+} 
+
+h1, h2 { 
+    color: #000000; 
+    font-family: 'Georgia', 'Serif';
+
+}
+    
+form { 
+    border: 3px solid #f1f1f1; 
+}
