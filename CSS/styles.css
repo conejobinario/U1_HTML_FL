@@ -1,17 +1,81 @@
-body { 
-    background-color: #FFE3E3; 
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
+body { font-family:"Arial", sans-serif;
+       background-color: #FFE3E3;
+       display: flex; 
+       flex-direction: column;
+       justify-content: center; 
+       align-items: center;
+         min-height: 100vh;
+         margin: 0; 
+         padding: 0;
 } 
 
-h1, h2 { 
-    color: #000000; 
-    font-family: 'Georgia', 'Serif';
+.caja-login { border: 3px solid #f1f1f1;  
+       max-width: 400px; 
+       width: 90%; 
+       padding: 30px; 
+       box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2); 
+} 
 
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold; 
 }
-    
-form { 
-    border: 3px solid #f1f1f1; 
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;  
+    border-radius: 20px;
+} 
+
+input[type=submit] {
+    background-color: #E35B5B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%; 
+    font-size: 16px;
+    border-radius: 20px; 
+    transition: 0.3s;
 }
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}  
+
+.imgcontainer {
+    text-align: center;
+    margin: 0 0 20px 0;
+} 
+
+img.Logopomninsane {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #000000; 
+    display: block;
+    margin: 0 auto;  
+    object-fit: cover;
+}  
+
+.enlaces-ayuda {
+    text-align: center;
+    margin-top: 14px;
+} 
+
+.enlaces-ayuda a {
+    color: #215EB8;
+    text-decoration: none;
+} 
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #555;
+}  
