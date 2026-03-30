@@ -13,7 +13,7 @@ h1 {
     font-size: 20px;
     margin: 10px 0;
     line-height: 1.2; 
-    front-weight: bold;
+    front-weight: bold; 
 }  
 
 .caja-login { border: 3px solid #f1f1f1;  
