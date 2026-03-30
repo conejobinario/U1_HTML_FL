@@ -9,21 +9,24 @@ body { font-family:"Fixedsys", monospace;
          padding: 0;
 } 
 
-h1 { 
-    font-size: 20px;
-    margin: 10px 0;
-    line-height: 1.2; 
-    front-weight: bold; 
-}  
-
-.caja-login { border: 3px solid #f1f1f1;  
+.caja-login { 
+       border: 3px solid #f1f1f1;  
+       background-color: white;
        max-width: 400px; 
        width: 90%; 
        padding: 30px; 
        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);  
        text-align: center; 
        margin-bottom: 20px;
+       box-sizing: border-box;;
 } 
+
+.cuadro-logo {
+    border: 2px solid black;
+    padding: 10px; 
+    display: inline-block; 
+    margin-bottom: 10px; 
+}
 
 label {
     display: block;
@@ -43,7 +46,7 @@ input[type=email], input[type=password] {
 } 
 
 input[type=submit] {
-    background-color: #E35B5B;
+    background-color: #3737AD;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -64,15 +67,12 @@ input[type="submit"]:hover {
     margin: 24px 0 12px 0; 
 } 
 
-img.Logopomninsane {
+img.Logosportclub {
     width: 150px; 
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid #E35B5B;
+    height: auto;
     display: block;
     margin: 0 auto;  
-    object-fit: cover; 
-    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5); 
+    object-fit: contain;
 }  
 
 .enlaces-ayuda {
