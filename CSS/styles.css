@@ -15,12 +15,15 @@ body { font-family:"Fixedsys", monospace;
     color: #000;   
     font-weight: normal;
     
+} 
+
+.caja-recover h1 {
+    font-size: 25px; 
 }
 
 .caja-login, .caja-registro, .caja-recover { 
        border: 3px solid #f1f1f1;  
        background-color: white;
-       font-weight: normal;
        max-width: 400px; 
        width: 90%; 
        padding: 20px; 
@@ -29,6 +32,15 @@ body { font-family:"Fixedsys", monospace;
        margin-bottom: 1px;
        box-sizing: border-box;
 } 
+
+.caja-registro label {
+    margin-top: 5px; 
+}
+
+.caja-registro input, .caja-registro select {
+    margin: 4px 0;
+    padding: 10px 15px;
+}
 
 .cuadro-logo {
     border: 2px solid black;
@@ -39,7 +51,7 @@ body { font-family:"Fixedsys", monospace;
 
 label {
     display: block;
-    margin-top: 15px;
+    margin-top: 5px;
     font-weight: bold; 
     text-align: left; 
 }
@@ -77,7 +89,7 @@ input[type="submit"]:hover {
 } 
 
 img.Logosportclub {
-    width: 225px;  
+    width: 250px;  
     height: auto;
     display: block;
     margin: 0 auto;  
