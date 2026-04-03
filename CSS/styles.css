@@ -9,11 +9,10 @@ body { font-family:"Fixedsys", monospace;
          padding: 0;
 } 
 
-.h1 {
-    font-size:12px;
-    color: #000;
-    margin-bottom: 20px;
-    text-align: center; 
+.caja-login h1 {
+    font-size: 40px; 
+    margin-top: 10px; 
+    color: #000; 
 }
 
 .caja-login { 
