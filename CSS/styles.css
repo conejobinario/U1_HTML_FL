@@ -47,6 +47,13 @@ body { font-family:"Fixedsys", monospace;
     padding: 10px; 
     display: inline-block; 
     margin-bottom: 10px; 
+} 
+
+.caja-recover p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+    margin: 20px 0;
 }
 
 label {
