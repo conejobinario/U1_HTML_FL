@@ -30,7 +30,7 @@ body { font-family:"Fixedsys", monospace;
 }
 
 .caja-login, .caja-registro, .caja-recover { 
-       border: 3px solid #f1f1f1;  
+       border: 7px solid #f1f1f1;  
        background-color: white;
        max-width: 400px; 
        width: 90%; 
@@ -108,7 +108,7 @@ input[type="submit"]:hover {
 } 
 
 img.Logosportclub {
-    width: 250px;  
+    width: 303px;  
     height: auto;
     display: block;
     margin: 0 auto;  
